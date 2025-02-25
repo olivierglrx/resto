@@ -1,0 +1,18 @@
+content:
+  - name: restaurant
+    label: restaurant
+    type: collection
+    path: 'content/restaurants'
+    view:
+      fields: [ name, date]
+    fields:
+      - name: name
+        label: Nom
+        type: string
+      - name : image
+        label : Image
+        type : image
+      - name : menu
+        label : menu
+        type : markdown
+      
